@@ -1,9 +1,15 @@
-poc_middleman_angular
+BBB_HTML5
 =====================
-This is a start of a base middleman project
+This is a start of a middleman project templete
 
+Start by cloning into .middleman/
 
-if component.json has been updated or first init then do:  
+then use make a new project:
+```
+middleman init my_new_boilerplate_project --template=BBB_HTML5
+```
+
+then cd into the project and do:  
 ```
 bower install
 ```
