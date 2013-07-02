@@ -14,5 +14,7 @@ middleman init my_new_boilerplate_project --template=BBB_HTML5
 
 then cd into the project and do:  
 ```
-bower install
+bower install  
+bundle install
+middleman server
 ```
