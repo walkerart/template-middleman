@@ -6,3 +6,4 @@
 //= require hamlcoffee
 //= require_tree ./templates
 //= require bootstrap/docs/assets/js/bootstrap
+

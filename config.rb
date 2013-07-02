@@ -47,16 +47,15 @@
 #   end
 # end
 
-environment = Sprockets::Environment.new
-environment.append_path "#{root}/vendor/assets"
-
 set :css_dir, 'css'
 
 set :js_dir, 'js'
 
 set :images_dir, 'img'
 
-set :js_assets_paths, ["#{root}/vendor/assets"]
+activate :sprockets
+sprockets.append_path "#{root}/vendor/assets"
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
