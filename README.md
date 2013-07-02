@@ -2,7 +2,10 @@ BBB_HTML5
 =====================
 This is a start of a middleman project templete
 
-Start by cloning into .middleman/
+Start by
+```
+git clone https://github.com/walkerart/BBB_HTML5.git ~/.middleman/BBB_HTML5
+```
 
 then use make a new project:
 ```
