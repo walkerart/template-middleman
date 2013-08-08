@@ -8,6 +8,7 @@
     "jquery.ui": "~1.10.2",
     "modernizr": "https://raw.github.com/walkerart/garden/master/source/javascripts/modernizr.js",
     "variable_width": "http://www.walkerart.org/static/scss/variable_width.css",
-    "base_scss": "https://github.com/walkerart/base_scss.git"
+    "base_scss": "https://github.com/walkerart/base_scss.git",
+    "jquery-cycle2": "*"
   }
 }
